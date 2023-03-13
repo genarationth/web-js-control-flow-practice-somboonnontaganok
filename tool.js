@@ -7,5 +7,7 @@ let tool = '';
 // else {
 //     writeUtensil = 'pen';
 // }
-tool ? writeUtensil = tool : writeUtensil = 'pen';
+tool 
+    ? writeUtensil = tool 
+    : writeUtensil = 'pen';
 console.log(`The ${writeUtensil} is for you`);
